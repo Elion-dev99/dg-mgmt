@@ -5,16 +5,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        neutral: {
-          850: '#1f1f1f',
+        canvas: '#09090D',
+        surface: '#121218',
+        raised: '#1B1B24',
+        line: '#24242F',
+        brand: {
+          DEFAULT: '#7C5CFF',
+          soft: '#A594FF',
+          deep: '#5433E6',
         },
-        ink: '#0a0a0a',
-        card: '#141414',
-        line: '#262626',
+        up: '#3DDC97',
       },
       fontFamily: {
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
-        mono: ['var(--font-mono)', 'ui-monospace', 'monospace'],
+        num: ['var(--font-num)', 'var(--font-sans)', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         'sheet-up': {
