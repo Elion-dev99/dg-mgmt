@@ -1,4 +1,4 @@
-import SalesDashboard from '@/components/sales-dashboard';
+import SalesDashboard from '@/components/dashboard/sales-dashboard';
 
 export default function Page() {
   return <SalesDashboard />;
